@@ -1,0 +1,52 @@
+.content {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+
+  > * {
+    padding-left: 30px;
+  }
+
+  p {
+    width: 55%;
+    min-width: 550px;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+  }
+
+  p#bio {
+    width: 80%;
+    line-height: 3.0rem;
+    text-indent: 1.5rem;
+  }
+
+  ul {
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+
+  a:link {
+    text-decoration: underline;
+    color: $secondary-color;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: $secondary-color;
+  }
+  
+  a:visited {
+    text-decoration: underline;
+    color: $secondary-color;
+  }
+  
+}
